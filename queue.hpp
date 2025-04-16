@@ -5,6 +5,7 @@ template< class NODETYPE >
 class Queue : private List
 {
 public:	
+	Queue() {};
 	void enqueue(const NODETYPE& newData)
 	{
 		insertAtBack(newData);
