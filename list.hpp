@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 template< class NODETYPE > class List; // forward declaration
 
